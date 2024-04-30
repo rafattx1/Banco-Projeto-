@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pagamento - Página Extraordinária</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<header>
+<img src="maonel.png" alt="manoel">
+<nav>
+<ul>
+<li><a href="extraordinary.html">Início</a></li>
+<li><a href="#">Serviços</a></li>
+<li><a href="#">Sobre Nós</a></li>
+<li><a href="#">Contato</a></li>
+</ul>
+</nav>
+</header>
+<section class="payment">
+<h2>Pagamento</h2>
+<form onsubmit="return validatePaymentForm()">
+<input type="text" id="cardholder-name" placeholder="Nome do Titular">
+<input type="text" id="card-number" placeholder="Número do Cartão">
+<input type="text" id="expiry-date" placeholder="Data de Validade">
+<input type="text" id="cvv" placeholder="CVV">
+<button type="submit">Pagar</button>
+</form>
+</section>
+<section class="chat">
+<h2>Chat</h2>
+<div id="chat-box"></div>
+<input type="text" id="message-input" placeholder="Digite sua mensagem...">
+<button onclick="sendMessage()">Enviar</button>
+</section>
+<footer>
+<p>&copy; 2024 Página Extraordinária. Todos os direitos reservados.</p>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

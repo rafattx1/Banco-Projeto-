@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+   }
+   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   }
+   nav ul li {
+    display: inline;
+    margin-right: 20
+    px;
+}
+nav ul li a {
+ text-decoration: none;
+ color: #333;
+}
+.chat {
+ margin-top: 50px;
+}
+#chat-box {
+ height: 200px;
+ overflow-y: scroll;
+ border: 1px solid #000000;
+ border-radius: 5px;
+ padding: 10px;
+ margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"],
+button {
+ width: 100%;
+ margin-bottom: 10px;
+ padding: 10px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+}
+button {
+ background-color: #007bff;
+ color: #d0e4eb;
+ border: none;
+ cursor: pointer;
+}
+button:hover {
+ background-color: #0056b3;
+}
+
+.payment {
+ margin-top: 50px;
+}
+
+.login {
+ margin-top: 50px;
+}
